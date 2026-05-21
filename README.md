@@ -6,9 +6,9 @@ This project analyses 747 trading days of Hang Seng Index (HSI) OHLC data paired
 **Key finding:** A contrarian strategy (long when previous day’s net sentiment ≤ -0.15, short when ≥ +0.15) achieves a total return of +78.8% vs. +13.1% for Buy & Hold over the same period.
 
 ## Repository Structure
-├── HSI.xlsx # Raw data (Date, OHLC, Up votes, Down votes)
-├── sentiment_analysis.ipynb # Main Jupyter Notebook with full analysis
-├── README.md # This file
+├── HSI.xlsx # Raw data (Date, OHLC, Up votes, Down votes)  
+├── sentiment_analysis.ipynb # Main Jupyter Notebook with full analysis  
+├── README.md # This file  
 └── requirements.txt # Python dependencies
 
 ## Data Description
